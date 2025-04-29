@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+ 
+  
+
+#navcol-1 ul li{
+    font-size: 12px;
+    /* font-weight: 390; */
+  position: relative;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    transition: color 0.32s cubic-bezier(0.4,0,1,1);
+    letter-spacing: .022em;
+   
+
+
+}
+
+
+
+.hey{
+   
+  position: absolute;
+  left: -240px;
+
+    display: none;
+    background-color: black;
+    height: 900px;
+    width: 100vw !important;
+    height: 100vh;
+}
+.store:hover .hey{
+       display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+li{
+    list-style: none;
+}
+.empdiv{
+    height: 44px; width: 100%;
+    background-color: black;
+}
+#navcol-1 ul li a{
+color: rgba(255, 255, 255, 0.8);
+
+cursor: auto;
+}
+#navcol-1 ul li  :hover{color: #ffffff;}
+
+.runmage{
+    height: 690px;
+    background-image: url(./photo/hero_paralympics__f0u9lu6obdiu_largetall_2x.jpg);
+    background-size: 210% 690px;
+    background-position: center;
+}
+.runmage p{
+    -webkit-font-smoothing: antialiased;
+}
+
+.stxt{
+    position: absolute;
+    top: 17%;
+    right:38%;
+} 
+.stxt2{
+    position: absolute;
+    top: 21.5%;
+    right:36.3%;
+}
+
+.watchbtn{
+    position: absolute;
+    top: 29.5%;
+    right: 44.5%;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 17.5px;
+    
+}
+.iphone{
+
+ height: 690px;
+ background-image: url(./photo/hero_iphone_family_a__c7v3mvx3jv42_largetall_2x.jpg);
+ background-size: 210% 690px;
+ background-position: center;
+}
+.ourtxt{
+    position: absolute;
+    top: 17%;
+    right:37%;
+
+}
+.ultratxt{
+    position: absolute;
+    top:23% ;
+    right: 39%;
+}
+.learnbtn{
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 17.5px;
+    position: absolute;
+    top: 31%;
+    right: 51%;
+
+}
+.shopbtn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 17.5px;
+    position: absolute;
+  top: 31%;
+  right: 40%;
+
+}
